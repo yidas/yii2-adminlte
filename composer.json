@@ -1,0 +1,35 @@
+{
+  "name": "yidas/yii2-adminlte",
+  "description": "AdminLTE Asset Bundle for Yii2 Framework",
+  "keywords": [
+    "yii",
+    "adminlte",
+    "asset",
+    "asset bundle"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/yidas/yii2-adminlte/issues",
+    "source": "https://github.com/yidas/yii2-adminlte"
+  },
+  "authors": [
+    {
+      "name": "Nick Tsai",
+      "email": "myintaer@gmail.com",
+      "homepage": "https://github.com/yidas/"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "2.0.*",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "almasaeed2010/adminlte": "~2.4",
+    "yidas/yii2-fontawesome": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yidas\\yii\\adminlte\\": "src"
+    }
+  }
+}
