@@ -150,17 +150,21 @@ You could additionally register AdminLTE iCheck assets in view:
 ],
 ```
 
-TEMP
-----
+TEMPLATES
+---------
+
+Once the extension is installed, you can have a preview by reconfiguring the path mappings of the view component in config:
 
 ```
-'components' => [
-    'view' => [
-         'theme' => [
-             'pathMap' => [
-                '@app/views' => '@vendor/yidas/yii2-adminlte/example-views'
-             ],
-         ],
+    'components' => [
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                   '@app/views' => '@vendor/yidas/yii2-adminlte/example-views'
+                ],
+            ],
+        ],
     ],
-],
 ```
+
+> Support both [Yii 2 Advanced Application Template](https://github.com/yiisoft/yii2-app-advanced) or [Basic Application Template](https://github.com/yiisoft/yii2-app-basic).

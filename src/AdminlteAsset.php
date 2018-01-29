@@ -1,6 +1,6 @@
 <?php
 
-namespace yidas\yii\adminlte;
+namespace yidas\adminlte;
 
 /**
  * AdminLTE Dependent Source Asset 

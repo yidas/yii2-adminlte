@@ -17,7 +17,7 @@ if (Yii::$app->controller->action->id === 'login') {
  */
 // \backend\assets\AppAsset::register($this);
 // \app\assets\AppAsset::register($this);
-$adminlteAsset = yidas\yii\adminlte\AdminlteAsset::register($this);
+$adminlteAsset = yidas\adminlte\AdminlteAsset::register($this);
 
 $distPath = $adminlteAsset->baseUrl;
 ?>

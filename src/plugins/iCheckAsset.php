@@ -1,6 +1,6 @@
 <?php
 
-namespace yidas\yii\adminlte\plugins;
+namespace yidas\adminlte\plugins;
 
 /**
  * iCheck plugin of AdminLTE Dependent Source Asset 

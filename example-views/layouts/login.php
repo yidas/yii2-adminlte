@@ -4,9 +4,9 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 // You could register AppAsset depended with AdminlteAsset instead
-yidas\yii\adminlte\AdminlteAsset::register($this);
+yidas\adminlte\AdminlteAsset::register($this);
 // iCheck
-yidas\yii\adminlte\plugins\iCheckAsset::register($this);
+yidas\adminlte\plugins\iCheckAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
