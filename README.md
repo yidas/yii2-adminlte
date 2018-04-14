@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://adminlte.io/" target="_blank">
+<!--     <a href="https://adminlte.io/" target="_blank">
         <img src="https://centosinstall.com/wp-content/uploads/2017/04/adminlte-thumbnail.jpg" height="100px">
-    </a>
-<!--     <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a> -->
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
     <h1 align="center">AdminLTE Extension for Yii 2 </h1>
     <br>
 </p>
@@ -32,7 +32,7 @@ composer require yidas/yii2-adminlte
 Or you could also edit `composer.json` with adding package in require section then run `composer update`.
 
 ```
-"yidas/yii2-adminlte": "~2.0.0"
+"yidas/yii2-adminlte": "~2.1.0"
 ```
 
 ---
