@@ -43,13 +43,13 @@ CONFIGURATION
 Register or depend Asset into your application:
 
 ```php
-yidas\yii\adminlte\AdminlteAsset
+yidas\adminlte\AdminlteAsset
 ```
     
 For eaxmple, to register AdminLTE assets in view :
 
 ```php
-\yidas\yii\adminlte\AdminlteAsset::register($this);
+\yidas\adminlte\AdminlteAsset::register($this);
 ```
     
 Or as dependency in your app asset bundle :    
@@ -67,7 +67,7 @@ class AppAsset extends AssetBundle
     public $js = [
     ];
     public $depends = [
-        'yidas\yii\adminlte\AdminlteAsset'
+        'yidas\adminlte\AdminlteAsset'
     ];
 }
 ```
@@ -85,7 +85,7 @@ Configurate asset in `config` file:
 'components' => [
     'assetManager' => [
         'bundles' => [
-            'yidas\yii\adminlte\AdminlteAsset' => [
+            'yidas\adminlte\AdminlteAsset' => [
                 'skin' => 'skin-black',
             ],
         ],
