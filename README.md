@@ -155,7 +155,7 @@ TEMPLATES
 
 Once the extension is installed, you can have a preview by reconfiguring the path mappings of the view component in config:
 
-```
+```php
     'components' => [
         'view' => [
             'theme' => [
@@ -168,3 +168,11 @@ Once the extension is installed, you can have a preview by reconfiguring the pat
 ```
 
 > Support both [Yii 2 Advanced Application Template](https://github.com/yiisoft/yii2-app-advanced) or [Basic Application Template](https://github.com/yiisoft/yii2-app-basic).
+
+### Simple Theme
+
+Very simple AdminLTE layout for startup.
+
+```php
+'@app/views' => '@vendor/yidas/yii2-adminlte/templates/simple'
+```
