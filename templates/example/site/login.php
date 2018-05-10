@@ -72,11 +72,16 @@ $fieldOptions2 = [
 $this->registerJs("
 
 	$(function () {
+    
+    // Remember Me checkbox style
     $('input').iCheck({
       checkboxClass: 'icheckbox_square-blue',
       radioClass: 'iradio_square-blue',
       increaseArea: '20%' // optional
     });
+
+    // Auto-focus
+    $('input[type=text]').first().focus();
   });
 
 ", $this::POS_END );

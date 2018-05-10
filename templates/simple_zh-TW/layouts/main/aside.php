@@ -25,29 +25,29 @@
     <!-- /.search form -->
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu" data-widget="tree">
-      <li class="header">MAIN NAVIGATION</li>
+      <li class="header">功能列表</li>
       <li class="active treeview menu-open">
         <a href="#">
-          <i class="fa fa-dashboard"></i> <span>Category A</span>
+          <i class="fa fa-dashboard"></i> <span>分類之一</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="index.html"><i class="fa fa-circle-o"></i> Item 1</a></li>
-          <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Item 2</a></li>
+          <li><a href="index.html"><i class="fa fa-circle-o"></i> 項目一</a></li>
+          <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> 項目二</a></li>
         </ul>
       </li>
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-dashboard"></i> <span>Category B</span>
+          <i class="fa fa-dashboard"></i> <span>分類之一</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="index.html"><i class="fa fa-circle-o"></i> Item 1</a></li>
-          <li><a href="index.html"><i class="fa fa-circle-o"></i> Item 2</a></li>
+          <li><a href="index.html"><i class="fa fa-circle-o"></i> 項目一</a></li>
+          <li><a href="index.html"><i class="fa fa-circle-o"></i> 項目二</a></li>
         </ul>
       </li>
     </ul>

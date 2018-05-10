@@ -17,35 +17,35 @@ $fieldOptions2 = [
 
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Admin</b>LTE</a>
+    <a href="#"><b>Admin</b> Panel</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">後台管理中心</p>
 
     <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
 
     <?= $form
       ->field($model, 'username', $fieldOptions1)
       ->label(false)
-      ->textInput(['placeholder' => $model->getAttributeLabel('username')]) ?>
+      ->textInput(['placeholder' => '帳號']) ?>
 
     <?= $form
       ->field($model, 'password', $fieldOptions2)
       ->label(false)
-      ->passwordInput(['placeholder' => $model->getAttributeLabel('password')]) ?>
+      ->passwordInput(['placeholder' => '密碼']) ?>
 
     <div class="row">
       <div class="col-xs-8">
         <div class="checkbox icheck">
 		      <label>
-		        <input type="checkbox"> Remember Me
+		        <input type="checkbox"> 記住登入帳號
 		      </label>
 		    </div>
       </div>
       <!-- /.col -->
       <div class="col-xs-4">
-        <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
+        <?= Html::submitButton('登入', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
       </div>
       <!-- /.col -->
     </div>

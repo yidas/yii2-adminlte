@@ -160,7 +160,7 @@ Once the extension is installed, you can have a preview by reconfiguring the pat
         'view' => [
             'theme' => [
                 'pathMap' => [
-                   '@app/views' => '@vendor/yidas/yii2-adminlte/example-views'
+                   '@app/views' => '@vendor/yidas/yii2-adminlte/templates/example'
                 ],
             ],
         ],
@@ -175,4 +175,8 @@ Very simple AdminLTE layout for startup.
 
 ```php
 '@app/views' => '@vendor/yidas/yii2-adminlte/templates/simple'
+```
+
+```php
+'@app/views' => '@vendor/yidas/yii2-adminlte/templates/simple_zh-TW'
 ```
