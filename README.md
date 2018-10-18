@@ -19,6 +19,13 @@ This is the [AdminLTE](https://adminlte.io/) extension for [Yii framework 2.0](h
 
 ---
 
+DEMONSTRATION
+-------------
+
+<img src="https://raw.githubusercontent.com/yidas/yii2-adminlte/master/img/demo.png" />
+
+---
+
 
 INSTALLATION
 ------------
