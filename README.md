@@ -178,7 +178,7 @@ Once the extension is installed, you can have a preview by reconfiguring the pat
 
 > Support both [Yii 2 Advanced Application Template](https://github.com/yiisoft/yii2-app-advanced) or [Basic Application Template](https://github.com/yiisoft/yii2-app-basic).
 
-### Example Layouts
+### Example Templates
 
 There are several implemented examples of AdminLTE layout for startup.
 
