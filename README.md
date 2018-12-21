@@ -12,9 +12,8 @@
 AdminLTE Asset Bundle for Yii2 Framework
 
 [![Latest Stable Version](https://poser.pugx.org/yidas/yii2-adminlte/v/stable?format=flat-square)](https://packagist.org/packages/yidas/yii2-adminlte)
-[![Total Downloads](https://poser.pugx.org/yidas/yii2-adminlte/downloads?format=flat-square)](https://packagist.org/packages/yidas/yii2-adminlte)
-[![Latest Unstable Version](https://poser.pugx.org/yidas/yii2-adminlte/v/unstable?format=flat-square)](https://packagist.org/packages/yidas/yii2-adminlte)
 [![License](https://poser.pugx.org/yidas/yii2-adminlte/license?format=flat-square)](https://packagist.org/packages/yidas/yii2-adminlte)
+[![Total Downloads](https://poser.pugx.org/yidas/yii2-adminlte/downloads?format=flat-square)](https://packagist.org/packages/yidas/yii2-adminlte)
 [![Monthly Downloads](https://poser.pugx.org/yidas/yii2-adminlte/d/monthly?format=flat-square)](https://packagist.org/packages/yidas/yii2-adminlte)
 
 This is the [AdminLTE](https://adminlte.io/) extension for [Yii framework 2.0](http://www.yiiframework.com/). It encapsulates [AdminLTE](https://github.com/almasaeed2010/AdminLTE) distribution assets and thus makes using AdminLTE in Yii applications extremely easy.
